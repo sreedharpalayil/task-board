@@ -1,0 +1,6 @@
+.todo-checkbox{
+    transform: scale(1.9);
+}
+.todo-item-div{
+    background-color: var(--primary-white);
+}

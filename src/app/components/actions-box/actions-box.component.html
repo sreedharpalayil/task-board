@@ -1,0 +1,4 @@
+<div *ngFor="let todo of todoList" class="todo-item-div text-left mb-2 p-3">
+    <input type="checkbox" class="todo-checkbox"  (change)="checkTheBox(todo.id, $event)">
+    <span class="pl-3">{{todo.todo}}</span>
+</div>

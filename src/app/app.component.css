@@ -1,0 +1,19 @@
+/* Common Styles */
+.main-box{
+    padding: 20px;
+}
+
+.box{
+    min-height: 200px;
+}
+
+/* Done box styles */
+.done-box{
+    background-color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+/* Todo box styles */
+.todo-box{
+    background-color: var(--secondary-color);
+}
