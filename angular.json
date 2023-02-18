@@ -17,8 +17,11 @@
             "index": "src/index.html",
             "main": "src/main.ts",
             "assets": [],
-            "styles": ["src/global_styles.css"],
-            "scripts": []
+            "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/global_styles.css"],
+            "scripts": [],
+            "tsConfig": "./tsconfig.json"
           },
           "configurations": {
             "production": {
@@ -79,5 +82,8 @@
       }
     }
   },
-  "defaultProject": "demo"
+  "defaultProject": "demo",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -1,0 +1,14 @@
+<div class="container main-box">
+    <div class="row box done-box text-center p-3">
+        <div class="col-md-12">
+            <div *ngIf="completedList.length == 0" class="col-md-12 pt-5"><p>Nothing done so for!</p></div>
+            <app-sticky-box [completed]="completedList"></app-sticky-box>
+        </div>
+    </div>
+    <div class="row box todo-box text-center">
+        <div *ngIf="todoList.length == 0" class="col-md-12 pt-5"><p>Cheers.. No Todos to do!</p></div>
+        <div class="col-md-12 pt-3">
+            <app-actions-box [todoList]="todoList" (markTodoAction)="markTodo($event)"></app-actions-box>
+        </div>
+    </div>
+</div>
