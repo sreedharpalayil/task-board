@@ -1,3 +1,3 @@
 # task-board
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-3lkouw)
+[StackBlitz ⚡️](https://stackblitz.com/edit/task-board-sreedhar)
