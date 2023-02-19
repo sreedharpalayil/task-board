@@ -6,12 +6,8 @@ import { Todo } from 'src/app/models/Todo.interface';
   templateUrl: './sticky-box.component.html',
   styleUrls: ['./sticky-box.component.css']
 })
-export class StickyBoxComponent implements OnInit {
+export class StickyBoxComponent {
 
   @Input() completed: Todo[];
-
-  ngOnInit(){
-
-  }
 
 }
