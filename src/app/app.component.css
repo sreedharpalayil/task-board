@@ -7,6 +7,14 @@
     min-height: 200px;
 }
 
+.content-heading{
+    background-color: var(--primary-white);
+}
+
+.footer-text{
+    font-size: 1.0rem;
+}
+
 /* Done box styles */
 .done-box{
     background-color: var(--primary-color);

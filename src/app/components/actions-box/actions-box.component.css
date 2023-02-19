@@ -1,3 +1,4 @@
+/* makes the checkbox bigger */
 .todo-checkbox{
     transform: scale(1.9);
 }
